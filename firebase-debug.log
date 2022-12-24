@@ -1,0 +1,130 @@
+[debug] [2022-12-24T08:18:12.238Z] ----------------------------------------------------------------------
+[debug] [2022-12-24T08:18:12.245Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\cherb\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-12-24T08:18:12.248Z] CLI Version:   11.19.0
+[debug] [2022-12-24T08:18:12.249Z] Platform:      win32
+[debug] [2022-12-24T08:18:12.249Z] Node Version:  v18.12.0
+[debug] [2022-12-24T08:18:12.252Z] Time:          Sat Dec 24 2022 15:18:12 GMT+0700 (Indochina Time)
+[debug] [2022-12-24T08:18:12.253Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-24T08:18:12.404Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-24T08:18:12.405Z] > authorizing via signed-in user (asyafaris15@student.ub.ac.id)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\kuliah\tugas\PI\final\backend
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-12-24T08:18:29.689Z] Using project from CLI flag: api-integrasi-19937
+[debug] [2022-12-24T08:18:29.693Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/api-integrasi-19937 [none]
+[debug] [2022-12-24T08:18:30.223Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/api-integrasi-19937 200
+[debug] [2022-12-24T08:18:30.223Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/api-integrasi-19937 {"projectId":"api-integrasi-19937","projectNumber":"819335059833","displayName":"API-Integrasi","name":"projects/api-integrasi-19937","resources":{"hostingSite":"api-integrasi-19937"},"state":"ACTIVE","etag":"1_3e22e9d6-63b1-4a96-8f3a-07dfcc8a02c6"}
+[info] i  Using project api-integrasi-19937 (API-Integrasi) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-12-24T08:19:12.919Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-12-24T08:19:13.126Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-12-24T08:19:13.126Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.15.0","browserURL":"https://www.gstatic.com/firebasejs/9.15.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.15.0/firebase.tgz"},"live":{"version":"9.15","browserURL":"https://www.gstatic.com/firebasejs/live/9.15/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.15/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.15.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.15.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.15.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.15.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.15.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.15.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.15.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.15.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at D:\kuliah\tugas\PI\final\backend 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=1032296301&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-12-24T08:19:35.745Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-12-24T08:19:35.745Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-12-24T08:19:36.263Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-12-24T08:19:36.264Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-12-24T08:19:36.280Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-12-24T08:19:36.791Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-12-24T08:19:36.792Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"asyafaris15","id":81274005,"node_id":"MDQ6VXNlcjgxMjc0MDA1","avatar_url":"https://avatars.githubusercontent.com/u/81274005?v=4","gravatar_id":"","url":"https://api.github.com/users/asyafaris15","html_url":"https://github.com/asyafaris15","followers_url":"https://api.github.com/users/asyafaris15/followers","following_url":"https://api.github.com/users/asyafaris15/following{/other_user}","gists_url":"https://api.github.com/users/asyafaris15/gists{/gist_id}","starred_url":"https://api.github.com/users/asyafaris15/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/asyafaris15/subscriptions","organizations_url":"https://api.github.com/users/asyafaris15/orgs","repos_url":"https://api.github.com/users/asyafaris15/repos","events_url":"https://api.github.com/users/asyafaris15/events{/privacy}","received_events_url":"https://api.github.com/users/asyafaris15/received_events","type":"User","site_admin":false,"name":"Asya Ismatullah Faris","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":8,"public_gists":0,"followers":1,"following":1,"created_at":"2021-03-24T01:44:52Z","updated_at":"2022-12-19T13:41:02Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":2646,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
+[info] 
+[info] +  Success! Logged into GitHub as asyafaris15 
+[info] 
+[debug] [2022-12-24T08:27:56.088Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-12-24T08:27:56.512Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-12-24T08:27:56.512Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-12-24T08:28:02.263Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2022-12-24T08:28:02.642Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2022-12-24T08:28:02.643Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-12-24T08:29:55.390Z] ----------------------------------------------------------------------
+[debug] [2022-12-24T08:29:55.395Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\cherb\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-12-24T08:29:55.396Z] CLI Version:   11.19.0
+[debug] [2022-12-24T08:29:55.397Z] Platform:      win32
+[debug] [2022-12-24T08:29:55.397Z] Node Version:  v18.12.0
+[debug] [2022-12-24T08:29:55.399Z] Time:          Sat Dec 24 2022 15:29:55 GMT+0700 (Indochina Time)
+[debug] [2022-12-24T08:29:55.400Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-24T08:29:55.541Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-24T08:29:55.542Z] > authorizing via signed-in user (asyafaris15@student.ub.ac.id)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\kuliah\tugas\PI\final\backend
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-12-24T08:30:25.420Z] Using project from CLI flag: api-integrasi-19937
+[debug] [2022-12-24T08:30:25.430Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/api-integrasi-19937 [none]
+[debug] [2022-12-24T08:30:26.181Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/api-integrasi-19937 200
+[debug] [2022-12-24T08:30:26.181Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/api-integrasi-19937 {"projectId":"api-integrasi-19937","projectNumber":"819335059833","displayName":"API-Integrasi","name":"projects/api-integrasi-19937","resources":{"hostingSite":"api-integrasi-19937"},"state":"ACTIVE","etag":"1_3e22e9d6-63b1-4a96-8f3a-07dfcc8a02c6"}
+[info] i  Using project api-integrasi-19937 (API-Integrasi) 
+[info] 
+=== Functions Setup
+[debug] [2022-12-24T08:30:26.200Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-24T08:30:26.201Z] > authorizing via signed-in user (asyafaris15@student.ub.ac.id)
+[debug] [2022-12-24T08:30:26.202Z] [iam] checking project api-integrasi-19937 for permissions ["firebase.projects.get"]
+[debug] [2022-12-24T08:30:26.204Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/api-integrasi-19937:testIamPermissions [none]
+[debug] [2022-12-24T08:30:26.204Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/api-integrasi-19937:testIamPermissions x-goog-quota-user=projects/api-integrasi-19937
+[debug] [2022-12-24T08:30:26.204Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/api-integrasi-19937:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-12-24T08:30:27.359Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/api-integrasi-19937:testIamPermissions 200
+[debug] [2022-12-24T08:30:27.359Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/api-integrasi-19937:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-12-24T08:30:27.360Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/api-integrasi-19937/services/cloudfunctions.googleapis.com [none]
+[debug] [2022-12-24T08:30:27.360Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/api-integrasi-19937/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/api-integrasi-19937
+[debug] [2022-12-24T08:30:27.363Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/api-integrasi-19937/services/runtimeconfig.googleapis.com [none]
+[debug] [2022-12-24T08:30:27.364Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/api-integrasi-19937/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/api-integrasi-19937
+[debug] [2022-12-24T08:30:29.025Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/api-integrasi-19937/services/cloudfunctions.googleapis.com 200
+[debug] [2022-12-24T08:30:29.027Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/api-integrasi-19937/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2022-12-24T08:30:29.066Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/api-integrasi-19937/services/runtimeconfig.googleapis.com 200
+[debug] [2022-12-24T08:30:29.067Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/api-integrasi-19937/services/runtimeconfig.googleapis.com [omitted]
+[info] 
+Detected existing codebase(s): default
+
